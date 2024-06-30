@@ -29,7 +29,7 @@ function Routing() {
                     ))}
                 </div>
                 <div className="flex gap-3">
-                   <a href={<Login />}> <Button title="Log In" className="w-[10%]" /></a>
+                   > <Button title="Log In" className="w-[10%]" />
                     <Button title="Sign Up" className="w-[10%]" />
                 </div>
             </div>
