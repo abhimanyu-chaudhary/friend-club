@@ -7,6 +7,7 @@ import ContactUsPage from "./components/contact/ContactUsPage";
 import MeetUpPage from "./components/meetup/MeetUpPage";
 import Button from "./components/frontpage/Button";
 import Logo from './assets/LOGO.png';
+import Login from "./components/login/Login";
 
 function Routing() {
     return (
@@ -28,7 +29,7 @@ function Routing() {
                     ))}
                 </div>
                 <div className="flex gap-3">
-                    <Button title="Log In" className="w-[10%]" />
+                   <a href={<Login />}> <Button title="Log In" className="w-[10%]" /></a>
                     <Button title="Sign Up" className="w-[10%]" />
                 </div>
             </div>
