@@ -24,7 +24,7 @@ function Routing() {
                         { title: "Contact Us", link: "/contact-us" },
                     ].map((elem, index) => (
                         <Link to={elem.link} key={index}>
-                            <h1>{elem.title}</h1>
+                            <h1 className="px-2 py-1 hover:bg-orange-300 rounded-lg">{elem.title}</h1>
                         </Link>
                     ))}
                 </div>
